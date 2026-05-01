@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Backend junk
+bitstack/venv/
+bitstack/__pycache__/
+bitstack/outputs/
+bitstack/catboost_info/
+
+# Frontend
+frontend/node_modules/
+
+# Env
+.env
+
+# OS
+.DS_Store
+Thumbs.db
