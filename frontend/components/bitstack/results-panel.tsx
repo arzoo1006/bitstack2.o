@@ -60,11 +60,7 @@ export function ResultsPanel({
           subtitle="Auto-generated visualizations from your dataset"
         />
         <div className="mt-6">
-          <img
-            src="http://127.0.0.1:8000/eda/"
-            alt="EDA"
-            className="rounded-lg border"
-          />
+          <img src="https://your-backend-name.onrender.com/eda/" />
         </div>
       </section>
 
