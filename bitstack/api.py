@@ -89,3 +89,7 @@ def download_report():
 def get_eda():
     file_path = os.path.abspath("outputs/eda.png")
     return FileResponse(file_path)
+
+@app.get("/")
+def home():
+    return {"message": "BitStack backend is running 🚀"}
