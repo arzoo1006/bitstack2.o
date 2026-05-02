@@ -1,9 +1,11 @@
 import axios from "axios";
 
+// ✅ YOUR REAL BACKEND URL
 const API = axios.create({
-  baseURL: "https://your-backend-name.onrender.com",
+  baseURL: "https://bitstack-backend.onrender.com",
 });
 
+// upload file
 export const uploadFile = async (file) => {
   const formData = new FormData();
   formData.append("file", file);
@@ -11,6 +13,7 @@ export const uploadFile = async (file) => {
   return API.post("/upload/", formData);
 };
 
+// train model
 export const trainModels = async (target, problem_type) => {
   const formData = new FormData();
   formData.append("target", target);

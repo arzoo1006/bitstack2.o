@@ -60,7 +60,7 @@ export function ResultsPanel({
           subtitle="Auto-generated visualizations from your dataset"
         />
         <div className="mt-6">
-          <img src="https://your-backend-name.onrender.com/eda/" />
+          <img src="https://bitstack-backend.onrender.com/eda/" />
         </div>
       </section>
 
