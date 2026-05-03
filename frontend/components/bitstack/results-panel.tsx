@@ -60,7 +60,11 @@ export function ResultsPanel({
           subtitle="Auto-generated visualizations from your dataset"
         />
         <div className="mt-6">
-          <img src="https://bitstack-backend.onrender.com/eda/" />
+          <img
+            src={`https://bitstack-backend.onrender.com/eda/?t=${Date.now()}`}
+            alt="EDA"
+            className="rounded-xl w-full"
+          />
         </div>
       </section>
 
